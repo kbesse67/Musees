@@ -1,0 +1,18 @@
+.gallery {
+  padding-bottom:130px;
+  figure {
+    margin:0;
+    position:relative;
+    margin-bottom:30px;
+
+    img {
+      width:100%;
+    }
+
+    figcaption {
+      position:absolute;
+      bottom:15px;
+      left:35px;
+    }
+  }
+}

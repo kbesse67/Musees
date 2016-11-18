@@ -1,0 +1,37 @@
+header {
+  padding-top:80px;
+  height:720px;
+  margin-bottom: 60px;
+  position:relative;
+  z-index:2;
+    nav {
+
+
+      li {
+        height:44px;
+        padding-left:30px;
+        padding-right:10px;
+        padding-top:11px;
+          img{
+
+            margin-left:5px;
+
+          }
+      }
+      li:nth-child(1) { background: rgba(0, 0, 0, 0.7); }
+      li:nth-child(2) { background: rgba(44, 44, 44, 0.7); }
+      li:nth-child(3) { background: rgba(88, 88, 88, 0.7); }
+    }
+}
+
+
+@media screen and (max-width: 640px) {
+
+header {
+  height:900px;
+  nav {
+    margin-top:50px;
+  }
+}
+
+}

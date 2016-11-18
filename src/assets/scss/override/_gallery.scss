@@ -5,9 +5,20 @@
     position:relative;
     margin-bottom:30px;
 
+
     img {
       width:100%;
+
     }
+
+    img:hover {
+      opacity:0.2;
+    }
+
+    a { /* POUR LE HOVER*/
+          display:block;
+          background:#e98369;
+        }
 
     figcaption {
       position:absolute;

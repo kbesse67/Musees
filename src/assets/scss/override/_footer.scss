@@ -1,13 +1,28 @@
 footer{
   background: #343434;
   padding-top:40px;
+  padding-bottom:40px;
+
+  input[type=email] {
+    background:black !important;
+    color:white;
+    display:inline-block;
+    width:calc(100% - 70px) !important;
+  }
+
+  input[type=submit]{
+    margin-top:14px;
+  }
+
   .row {
     margin-top:20px;
-      nav {
-        a {
-          margin-left:10px;
-          margin-right:10px;
-        }
-      }
+  }
+
+  a:first-child{
+    margin-left:0px;
+  }
+  a {
+    margin-left:10px;
+    margin-right:10px;
   }
 }
